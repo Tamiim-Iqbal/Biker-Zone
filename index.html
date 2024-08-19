@@ -18,7 +18,9 @@
             extend: {
               colors: {
                 clifford: '#da373d',
-                'biker-btn-clr' : '#E76F51'
+                'biker-btn-clr' : '#E76F51',
+                'biker-bg-clr' : 'rgba(231, 111, 81, 0.1)',
+                'biker-arrow-clr' : '#E76F51',
               }
             }
           }
@@ -75,7 +77,88 @@
                   <li><a>Contact</a></li>
                 </ul>
             </div>    
-          </div>
+        </div>
+        <!-- Carousel -->
+        <div class="carousel w-full mt-5 md:mt-10 bg-biker-bg-clr ">
+            <!-- Slide 1 -->
+            <div id="slide1" class="carousel-item relative w-full">
+              <div class="flex flex-col md:flex-row items-center p-10 md:p-20">
+                <!-- Text Content -->
+                <div class="space-y-5 flex-1">
+                    <h1 class="text-3xl md:text-4xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile </h1>
+                    <p class="text-xs font-light">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    <button class="btn bg-biker-btn-clr text-white">Purchase</button>
+                </div>
+                <!-- Image -->
+                <div class="flex-1 lg:ml-40">
+                    <img class="border-2 border-dashed" src="resources/images/slider/bike1.png" alt="">
+                </div>
+              </div>
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide4" class="text-biker-arrow-clr">❮</a>
+                <a href="#slide2" class="text-biker-arrow-clr">❯</a>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div id="slide2" class="carousel-item relative w-full">
+                <div class="flex flex-col md:flex-row items-center px-10 md:px-20 gap-5">
+                  <!-- Text Content -->
+                  <div class="space-y-5 flex-1">
+                      <h1 class="text-3xl md:text-4xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile </h1>
+                      <p class="text-xs font-light">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                      <button class="btn bg-biker-btn-clr text-white">Purchase</button>
+                  </div>
+                  <!-- Image -->
+                  <div class="flex-1 lg:ml-40">
+                      <img class="border-2 border-dashed" src="resources/images/slider/bike2.png" alt="">
+                  </div>
+                </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide1" class="text-biker-arrow-clr">❮</a>
+                  <a href="#slide3" class="text-biker-arrow-clr">❯</a>
+                </div>
+              </div>
+            <!-- Slide 3 -->
+            <div id="slide3" class="carousel-item relative w-full">
+                <div class="flex flex-col md:flex-row items-center p-10 md:p-20 gap-5">
+                  <!-- Text Content -->
+                  <div class="space-y-5 flex-1">
+                      <h1 class="text-3xl md:text-4xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile </h1>
+                      <p class="text-xs font-light">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                      <button class="btn bg-biker-btn-clr text-white">Purchase</button>
+                  </div>
+                  <!-- Image -->
+                  <div class="flex-1 lg:ml-40">
+                      <img class="border-2 border-dashed" src="resources/images/slider/bike3.png" alt="">
+                  </div>
+                </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide2" class="text-biker-arrow-clr">❮</a>
+                  <a href="#slide4" class="text-biker-arrow-clr">❯</a>
+                </div>
+              </div>
+            <!-- Slide 4 -->
+            <div id="slide4" class="carousel-item relative w-full">
+                <div class="flex flex-col md:flex-row items-center p-10 md:p-20 gap-5">
+                  <!-- Text Content -->
+                  <div class="space-y-5 flex-1">
+                      <h1 class="text-3xl md:text-4xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile </h1>
+                      <p class="text-xs font-light">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                      <button class="btn bg-biker-btn-clr text-white">Purchase</button>
+                  </div>
+                  <!-- Image -->
+                  <div class="flex-1 lg:ml-40">
+                      <img class="border-2 border-dashed" src="resources/images/slider/bike4.png" alt="">
+                  </div>
+                </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a href="#slide3" class="text-biker-arrow-clr">❮</a>
+                  <a href="#slide1" class="text-biker-arrow-clr">❯</a>
+                </div>
+              </div>
+            </div>
+            </div>
+        </div>
     </Header>
     <!-- Main Section -->
     <main>
